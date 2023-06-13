@@ -63,11 +63,6 @@ if args.import_from:
             print(str(len(imported)) + " cards have been loaded.")
 
 
-class flashcard(object):
-    def __int__(self, term, definition):
-        self.term = term
-        self.definition = definition
-
 menu_options = ("add", "remove", "import", "export", "ask", "exit", "log", "hardest card", "reset stats")
 while True:
     print("Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):")
